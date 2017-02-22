@@ -1,7 +1,10 @@
-+++
-title = "Go dep in Docker"
-date = "2017-02-04T15:12:23+01:00"
-+++
+---
+layout: post
+title: "Go dep in Docker"
+date: 2017-02-04T15:12:23+01:00
+comments: true
+categories: [docker, golang, godep]
+---
 Go's dependency handling has been an area which has been needing unification, over the years. Multiple package managers have been created. The Go community has been working on creating a dependency manager recently, which they plan on getting added to the official toolchain. I've decided to jump on the bandwagon and start using this tool. Here's how I've been using it in docker.
 
 <!--more-->
@@ -12,4 +15,4 @@ The next issue was, I was storing and building my code outside of the `GOPATH`. 
 
 An example `Dockerfile` can be found below.
 
-<div><script src='https://gist.github.com/163763cd1017d8a5319c0c48ec697969.js?file=Dockerfile'></script></div>
+{% gist 163763cd1017d8a5319c0c48ec697969 Dockerfile %}

@@ -1,7 +1,10 @@
-+++
-title = "OVH & Docker - Failed to register layer: devmapper"
-date = "2017-02-06T15:12:23+01:00"
-+++
+---
+layout: post
+title: "OVH & Docker - Failed to register layer: devmapper"
+date: 2017-02-06T15:12:23+01:00
+comments: true
+categories: [docker, devops]
+---
 I've been using OVH's dedicated server range recently. When ever I tried to use docker with the Ubuntu latest LTS I ended up with an error `failed to register layer: devmapper:`. The solution is rather simple, OVH dedicated servers use rather old and unsupported kernel versions.
 The solution is upgrade linux kernel.
 <!--more-->

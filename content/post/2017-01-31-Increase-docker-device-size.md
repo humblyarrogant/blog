@@ -1,7 +1,10 @@
-+++
-title = "Increase docker device size on Ubuntu"
-date = "2017-01-30T15:12:23+01:00"
-+++
+---
+layout: post
+title: "Increase docker device size on Ubuntu"
+date: 2017-01-31T15:12:23+01:00
+comments: true
+categories: [devops, Kubernetes, docker]
+---
 So I've got an application that I'm running via  and Docker. That requires a certain amount of disk space and would run out of space very quickly with the default 10G limit that Docker comes with.
 
 <!--more-->

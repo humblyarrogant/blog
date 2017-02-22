@@ -1,7 +1,10 @@
-+++
-title = "What I learned with a big database"
-date = "2017-01-15T15:12:23+01:00"
-+++
+---
+layout: post
+title: "What I learned with a big database"
+date: 2017-01-15T15:12:23+01:00
+comments: true
+categories: [development]
+---
 So I recently started a new side project that involves data mining. While working on this project I've learned a little bit about how to manage a larger than usual database. At the point of writing this the database is approximately 50GB and growing daily. So here are a few things I've learned.
 
 <!-- more -->
