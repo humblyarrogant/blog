@@ -1,0 +1,15 @@
+languageCode = "en-gb"
+title = "A Humbly Arrogant Blog"
+baseURL = "http://blog.humblyarrogant.io/"
+
+theme           = "sp-minimal"
+paginate = 5
+
+[params]
+	title = "A Humbly Arrogant Blog"
+	subtitle = "Posts about software development"
+	copyright = "Iain Cambridge, all rights reserved."
+	renderType = "multi"
+  	themeStyle = "original"
+	authorImage = "logo.png"
+
