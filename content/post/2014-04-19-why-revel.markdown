@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Why Revel?"
+date: 2014-04-19 14:40:14 -0400
+comments: true
+categories: [development, theory]
+---
+So lately I've been working on a project to increase productivity when dealing with Bitbucket and Jenkins. As I am a web developer, it's a web app. So one of the first questions when building an application these days seems to be what framework? This for me has taken a month to really decide. In the end I choose Revel.
+
+<!-- more -->
+
+# At first
+
+At first I decided to use Gorilla Web Toolkit. Which is a very minimalist framework(ish). It's really just a bunch of components that you can use together to create web applications. I have no complaints about it. It all works very nicely. It just wasn't how I wanted to develop. I'm too used to controllers, I like the structure they provide. Gorilla's muxer was pretty much a more powerful version of the default one that comes with Go. Where you either pass a function or you pass a struct that handles the request. It just wasn't what I wanted. 
+
+# My own framework
+
+Next thing I decided was I would built my own simple framework. It would do exactly what I wanted. I worked on it for two weeks in my spare time. As I am just learning Go, this provided a perfect chance to get to know it better. I learnt about reflection and the basics of how it works. Increased my understanding of structs and inheritance. As well as a bunch of other stuff. However I realised I was spending all my time writing a framework and that's not what I want to build.
+
+# Revel
+
+I originally didn't want to use Revel because it's pretty bloated, it's a full on framework. Based on Play! which I had played with before in Scala. But I realised it's pretty much the only web framework that provides anywhere near what I am wanting in regards to routing and MVC. It's also got the ability to recompile code on change so you don't have to constant restart the application. So I decided to just rewrite everything over to Revel. Hopefully this will be a good decision.
