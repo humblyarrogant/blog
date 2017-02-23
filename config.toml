@@ -12,4 +12,6 @@ paginate = 5
 	renderType = "multi"
   	themeStyle = "original"
 	authorImage = "logo.png"
+	name = "Iain Cambridge"
+	googleAnalytics = "UA-49011138-2"
 
