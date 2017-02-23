@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Go dep in Docker"
 date: 2017-02-04T15:12:23+01:00
 comments: true
@@ -15,4 +14,5 @@ The next issue was, I was storing and building my code outside of the `GOPATH`. 
 
 An example `Dockerfile` can be found below.
 
-{% gist 163763cd1017d8a5319c0c48ec697969 Dockerfile %}
+<div><script src='https://gist.github.com/163763cd1017d8a5319c0c48ec697969.js?file=Dockerfile'></script></div>
+

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Social Engineering defence"
 date: 2014-04-13 19:40:14 -0400
 comments: true

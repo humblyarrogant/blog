@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "RabbitMQ One consumer blocking others"
 date: 2017-02-01T15:12:23+01:00
 comments: true
@@ -13,6 +12,6 @@ After doing a lot of searching and looking at various documents and trying to se
 
 How I set the prefetch configuration using the Qos command. In Go and in PHP (since I had a PHP version to see if it was just the library in Go I was using.)
 
-{% gist bd7334304dabc1fac3c6a1441a96a561 main.go %}
 
-{% gist bd7334304dabc1fac3c6a1441a96a561 main.php %}
+<div><script src='https://gist.github.com/bd7334304dabc1fac3c6a1441a96a561.js?file=main.go'></script></div>
+<div><script src='https://gist.github.com/bd7334304dabc1fac3c6a1441a96a561.js?file=main.php'></script></div>

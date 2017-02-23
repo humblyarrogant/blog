@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Are you a good developer"
 date: 2017-01-16T15:12:23+01:00
 comments: true

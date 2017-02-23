@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "The git-flow branch model is waterfall?"
 date: 2014-03-20 15:23:04 -0400
 comments: true

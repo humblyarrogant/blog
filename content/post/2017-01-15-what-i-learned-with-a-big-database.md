@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "What I learned with a big database"
 date: 2017-01-15T15:12:23+01:00
 comments: true

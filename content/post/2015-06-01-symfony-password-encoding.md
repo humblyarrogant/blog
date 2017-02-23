@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Symfony Password encoding"
 date: 2015-06-01T15:12:23+01:00
 comments: true
@@ -14,9 +13,9 @@ The encoder factory is where you get your password encoders from. You pass in a 
 
 When fetching an encoder you can either pass in a User entity or you can pass in the string of the class you want to find the encoder for. This behavior can be leaveraged so you define encoders with ids that aren't class named and then just pass in the name of the encoder you want.
 
-{% gist 5300b2a609a80492b657 one.yml %}
+<div><script src='https://gist.github.com/5300b2a609a80492b657.js?file=one.yml'></script></div>
 
-{% gist 5300b2a609a80492b657 two.php %}
+<div><script src='https://gist.github.com/5300b2a609a80492b657.js?file=two.php'></script></div>
 
 ## Creating your own Password Encoder
 
@@ -24,26 +23,26 @@ To create your own password encoder you have to create your own encoder class im
 
 Here's an example Encoder class.
 
-{% gist 5300b2a609a80492b657 three.php %}
+<div><script src='https://gist.github.com/5300b2a609a80492b657.js?file=three.php'></script></div>
 
 Once you have created the class you have to define it in your services container configuration.
 
-{% gist 5300b2a609a80492b657 four.xml %}
+<div><script src='https://gist.github.com/5300b2a609a80492b657.js?file=four.xml'></script></div>
 
 Then to have it loaded into the Encoder factory you need to assign it to a user entity in your security.yml file like so.
 
 
-{% gist 5300b2a609a80492b657 five.yml %}
+<div><script src='https://gist.github.com/5300b2a609a80492b657.js?file=five.yml'></script></div>
 
 ## Password encoder based on the User entity
 
 The EncoderAwareInterface allows you to return the key for the encoder you want for that user.
 
-{% gist 5300b2a609a80492b657 six.php %}
+<div><script src='https://gist.github.com/5300b2a609a80492b657.js?file=six.php'></script></div>
 
 The key for the encoder is key that was put into your security.yml config. In the below example we have bcrypt available as a key as well as "Icambridge\Entity\InsecureUser".
 
-{% gist 5300b2a609a80492b657 seven.yml %}
+<div><script src='https://gist.github.com/5300b2a609a80492b657.js?file=seven.yml'></script></div>
 
 ## UserPasswordEncoder
 

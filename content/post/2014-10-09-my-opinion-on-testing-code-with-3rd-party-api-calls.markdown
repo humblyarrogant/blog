@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "My Opinion on testing code with 3rd party API calls"
 date: 2014-10-09T15:12:23+01:00
 comments: true

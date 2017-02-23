@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Observer pattern in golang"
 date: 2014-03-22 10:37:14 -0400
 comments: true
@@ -16,11 +15,14 @@ First part of the observer pattern is you need the actual observers. The logic t
 
 Created an interface to allow for more flexible typing later on.
 
-{% gist 9708081 interface.go %}
+<div><script src='https://gist.github.com/9708081.js?file=interface.go'></script></div>
+
 
 # Observer Notifier
 
 The main part of the logic, simply have an add observer and then have a process function that loops through and calls them all.
+
+<div><script src='https://gist.github.com/9708081.js?file=observer.go'></script></div>
 
 {% gist 9708081 observer.go %}
 
@@ -28,4 +30,6 @@ The main part of the logic, simply have an add observer and then have a process 
 
 Here is a copy of it all together. As you can see it's really simple to whack together once you have a half decent understanding of Go.
 
-{% gist 9708081 main.go %}
+
+<div><script src='https://gist.github.com/9708081.js?file=main.go'></script></div>
+

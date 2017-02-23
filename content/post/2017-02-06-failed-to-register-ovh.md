@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "OVH & Docker - Failed to register layer: devmapper"
 date: 2017-02-06T15:12:23+01:00
 comments: true

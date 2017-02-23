@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Don't return null"
 date: 2014-11-01T15:12:23+01:00
 comments: true

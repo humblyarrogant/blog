@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Revel : Force template format"
 date: 2014-04-26 15:39:14 -0400
 comments: true
@@ -9,10 +8,10 @@ So in Revel you can have your template in several different formats: html, json,
 
 <!-- more -->
 All awesome. But what if I want to debug something that should only ever be json. Or even more interesting what if I sent that I accept html and json but with json second in the list. AngularJS seems to do this by default, took me a while to figure out what was going on. So I need a way of forcing revel to just use one file format no matter what the http headers are. Thankfully it's super simple, one line in your controller action to set the Request member's Format member to the desired format and it'll use that.
-        
-{% gist 11321687 snippet.go %}
+     
+<div><script src='https://gist.github.com/11321687.js?file=snippet.go'></script></div>
 
 So in full example.
 
-{% gist 11321687 test.go %}
+<div><script src='https://gist.github.com/11321687.js?file=test.go'></script></div>
 

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Hack: Types"
 date: 2014-11-23T15:12:23+01:00
 comments: true
@@ -20,21 +19,19 @@ Annotating is when you define which type is going to be used. You can type the f
 
 For function arguments you just put the type before the variable name for the argument.
 
-{% gist 26159043a232e7206b40 function.hh %}
+<div><script src='https://gist.github.com/26159043a232e7206b40.js?file=function.hh'></script></div>
 
 For the return type you just put `: type` in between the function definition and the function body.
 
-{% gist 26159043a232e7206b40 return.hh %}
+<div><script src='https://gist.github.com/26159043a232e7206b40.js?file=return.hh'></script></div>
 
 For constants you just put the type in between the `const` keyword and the constant name.
 
-
-{% gist 26159043a232e7206b40 dd.hh %}
+<div><script src='https://gist.github.com/26159043a232e7206b40.js?file=dd.hh'></script></div>
 
 For class variables you just put the type in between the scope keyword and the variable name.
 
-
-{% gist 26159043a232e7206b40 class.hh %}
+<div><script src='https://gist.github.com/26159043a232e7206b40.js?file=class.hh'></script></div>
 
 ## List of basic types
 
@@ -73,7 +70,7 @@ Sometimes you want your code to work with any type. In those cases we can use ty
 
 When naming it you should remember can't use the name of a type that already exists. It's a general rule of thumb that you start your generic type with `T` and for real simple use cases `T` alone is fine. With collections it's advised to use `Tk` for the key and `Tv` for the value.
 
-{% gist 26159043a232e7206b40 generics.hh %}
+<div><script src='https://gist.github.com/26159043a232e7206b40.js?file=generics.hh'></script></div>
 
 ## Overriding return type signature
 

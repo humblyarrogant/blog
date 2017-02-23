@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Revel : How to use Drone.io for testing"
 date: 2014-04-26 20:39:14 -0400
 comments: true
@@ -12,4 +11,5 @@ Being a lover of testing, continuous intergration, and cloud services. I wanted 
 
 A quick breakdown of what is going on. First you install the revel framework, then you install the revel command. Then you call the revel command with the test command using import directory that will be used by go when it grabs your code. So in my case it was "**revel test github.com/icambridge/sitrep**". 
 
-{% gist 11329286 gistfile1.txt %}
+<div><script src='https://gist.github.com/11329286.js?file=gistfile1.txt'></script></div>
+

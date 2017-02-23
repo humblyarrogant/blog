@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "How I use Dependency Injection"
 date: 2014-06-05 20:39:14 -0400
 comments: true
@@ -27,8 +26,7 @@ The constructor method of injecting dependencies is when you pass the dependency
 
 So use case, an email sender dependency. It's very unlikely that you're going to want to change how you send emails.
 
-
-{% gist fa0cd7160709ac6b6218 Constructor.php %}
+<div><script src='https://gist.github.com/fa0cd7160709ac6b6218.js?file=Constructor.php'></script></div>
 
 # Setter
 
@@ -38,7 +36,8 @@ Use case for this a dependency on a database connection object in a model. You m
 
 Another use case for the setter method is if you want to use interfaces to show that the object has that dependency. For example the ContainerAware interface in the Symfony2. This allows you to give a class multiple dependencies.
 
-{% gist fa0cd7160709ac6b6218 Setter.php %}
+<div><script src='https://gist.github.com/fa0cd7160709ac6b6218.js?file=Setter.php'></script></div>
+
 
 # Method
 
@@ -46,13 +45,13 @@ The method injection is when you injected it into the method you want to use it 
 
 Use case for this would be a date object in a calendar object. Where you would want to use the same object for multiple dates.
 
-{% gist fa0cd7160709ac6b6218 method.php %}
+<div><script src='https://gist.github.com/fa0cd7160709ac6b6218.js?file=method.php'></script></div>
 
 # Service Container
 
 Service container is when you store you dependencies in an object and then pass that around. This allows you to make all your dependencies easily available wihtout having to worry about injecting them individually.
 
-{% gist fa0cd7160709ac6b6218 container.php %}
+<div><script src='https://gist.github.com/fa0cd7160709ac6b6218.js?file=container.php'></script></div>
 
 # Factory
 
@@ -62,12 +61,11 @@ This is good when you need to build up a dependency. For example using an entity
 
 Here is a sample of the code without a factory.
 
-{% gist fa0cd7160709ac6b6218 factory-without.php %}
+<div><script src='https://gist.github.com/fa0cd7160709ac6b6218.js?file=factory-wihtout.php'></script></div>
 
 With the factory.
 
-
-{% gist fa0cd7160709ac6b6218 factory-with.php %}
+<div><script src='https://gist.github.com/fa0cd7160709ac6b6218.js?file=factory-with.php'></script></div>
 
 # Conclusion
 

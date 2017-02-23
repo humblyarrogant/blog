@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "xvfb-run and wkhtmltopdf won't run in Jenkins/Apache"
 date: 2014-03-28 22:26:14 -0400
 comments: true

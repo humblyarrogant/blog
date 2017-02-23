@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Why hacking on production code during an interview is a good thing"
 date: 2014-03-21 18:53:00 +0000
 comments: true

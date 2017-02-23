@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Increase docker device size on Ubuntu"
 date: 2017-01-31T15:12:23+01:00
 comments: true

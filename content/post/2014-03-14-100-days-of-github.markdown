@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "100 days of github"
 date: 2014-03-14 19:42:49 +0000
 comments: true

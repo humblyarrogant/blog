@@ -12,7 +12,7 @@ In discussion with other developers about a newly created
 
 As an example I will create an InterviewManager:
 
-{% gist 68a3a7ccd3739f566b108be76a4831e2 InterviewManager.php %}
+<div><script src='https://gist.github.com/68a3a7ccd3739f566b108be76a4831e2.js?file=InterviewManager.php'></script></div>
 
 In the above class there are quite a few methods, while they all relate to interviews there are many responsibilities being held within this class. The following responsibilities can be found within this class:
 
@@ -34,7 +34,8 @@ We have three methods that relate to scheduling interviews, those being schedule
 
 ### Solution
 
-{% gist 68a3a7ccd3739f566b108be76a4831e2 InterviewManager.solution.php %}
+
+<div><script src='https://gist.github.com/68a3a7ccd3739f566b108be76a4831e2.js?file=InterviewManager.solution.php'></script></div>
 
 In this solution, I've just split the Manager class into three separate classes: InterviewRepository, InterviewScheduler, InterviewValidator. Thus allowing for the proper encapsulation of the responsibilities in each class.
 
@@ -44,7 +45,8 @@ Sometimes we can spot SRP isn't being adhered to by the usage of the code. One o
 
 ### Example code:
 
-{% gist 68a3a7ccd3739f566b108be76a4831e2 InterviewController.php %}
+
+<div><script src='https://gist.github.com/68a3a7ccd3739f566b108be76a4831e2.js?file=InterviewController.php'></script></div>
 
 Like in the previous scenario, we've got an overloaded Manager class, however, this can happen with many types of classes. So the responsibilities of the lines of code are:
 
@@ -55,7 +57,8 @@ The responsibility overload of data storage and interview assignment in the same
 
 ### Solution
 
-{% gist 68a3a7ccd3739f566b108be76a4831e2 InterviewController.solution.php %}
+
+<div><script src='https://gist.github.com/68a3a7ccd3739f566b108be76a4831e2.js?file=InterviewController.solution.php'></script></div>
 
 In this solution, we create two classes and call the repository to fetch the data and then assign the interview and then save the data. While this does increase the number of lines within the controller this allows for a more clear understanding of what is happening within the method, as before it wasn't explicit that the data was being saved.
 
