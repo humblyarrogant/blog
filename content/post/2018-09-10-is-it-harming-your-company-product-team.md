@@ -25,9 +25,19 @@ With Product Team's job to tirage other departments requests and help bring valu
 
 # How to Spot Issues with your Product Team
 
-One of the major things that is generally quite common with poor performing product teams is missing deadlines. Missing deadlines either means something massively went wrong and it's a one-off or if it's happening constantly there is something wrong with the planning.
+One of the major things that are generally quite common with poor performing product teams is missing deadlines. Missing deadlines either means something massively went wrong and it's a one-off or if it's constantly happening there is something wrong with the planning.
 
 Another thing to look at is how long it takes for a ticket to go from being created to being done. In a large company, you can expect lots of tickets to take a month or so before hitting the development queue. If you're a small business, for the most part, it should take a week or so for the ticket to hit the development queue. A massive sign that there is something wrong with the prioritization is if quick-win tickets, those that are extremely easy to do - will take 1-4 hours or not being done extremely quickly. These are called quick-wins because for very little effort you have a ticket request done. If the ticket can deliver massive business value such as doubling or tripling your lead generation and it's not done extremely quickly you have a serious problem with your Product department.
+
+Looking at the tickets that have been created is often a massive clue to the effectiveness of your product team. If you look at the backlog or the area that is designated for developers to pick up work when they run out. If there is no backlog that developers can use to pick tickets up for you could end up with the case of developers sitting around with no work because there isn't a Product Manager around to give them a ticket. Another issue with the tickets you should look at is the amount of information in the tickets. If the tickets are blank, there is a massive issue, how is anyone able to work on a ticket that is blank. How is the ticket meant to swap hands? It can't be done easily since the information for that task is in someone's head. That means everyone is dependant on that person.
+
+
+## Troubling signs
+
+* Constantly missing deadlines they set
+* Tickets taking long periods of time to be done, especially trivial tickets.
+* No backlog or a backlog that is not groomed.
+* Empty tickets
 
 # Conclusion
 
